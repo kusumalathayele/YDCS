@@ -1,0 +1,644 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background: #FFF6ED;
+}
+#left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    width: 50%;
+    height: 60px;
+    padding-bottom: 50px;
+}
+#left img {
+    width: 80px;
+    height: 90px;
+}
+#left-rightpart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 291px;
+    height: 56px;
+}
+#left-rightpart p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #880000;
+    margin: -4px 0px;
+    width: 291px;
+    height: 36px;
+}
+#left-rightpart pre {
+    width: 291px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin: 0;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 50%;
+    height: 60px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.right #a1 {
+    width: 48px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a2 {
+    width: 48px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a3 {
+    width: 71px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a4 {
+    width: 125px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a5 {
+    width: 57px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a6 {
+    width: 66px;
+    height: 60px;
+    gap: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a7 {
+    width: 5px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.right #a8 {
+    width: 45px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #800000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      padding: 20px;
+    }
+    #left {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-left: 0;
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+    #left img {
+      width: 60px;
+      height: 70px;
+    }
+    #left-rightpart {
+      align-items: center;
+      width: 100%;
+    }
+    #left-rightpart p,
+    #left-rightpart pre {
+      text-align: center;
+      width: auto;
+    }
+    .right {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      height: auto;
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+    .right #a1, .right #a2,
+    .right #a3,
+    .right #a4,
+    .right #a5,
+    .right #a6,
+    .right #a7,
+    .right #a8 {
+      width: auto;
+      line-height: 20px;
+      text-align: center;
+    }
+    .right #a7,
+    .right #a8 {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame2 {
+    width: 100%;
+    height: 500px;
+    top: 800px;
+    background: linear-gradient(180deg, #FFF6ED 0%, #FFFFFF 100%);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame2left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+    justify-content: center;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.frame2left p {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: Merriweather;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.red {
+    color: red;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.orange {
+    color: orange;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.frame2left p .author {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Merriweather;
+    padding-right: 40px;
+    display: block;
+    text-align: right;
+    color: #FF9933;
+}
+.frame2right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+    overflow: visible;
+}
+.frame2right div {
+    background-image: url("./hero-bg.png");
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame2right div img {
+    width: 100px;
+    height: 400px;
+}
+.frame2right #image1 {
+    top: 300px;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    object-fit: cover;
+    z-index: 2;
+}
+.frame2right #image2 {
+    z-index: 1;
+    top: 300px;
+    left: 50%;
+    width: 110%;
+    padding: 20px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 10%;
+    height: 500px;
+}
+.socialmedia .icons {
+    margin-top: 160px;
+}
+.socialmedia .icons div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #800000;
+    margin: 2px;
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+.mandapframe {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    background-image: url("./halfmandap.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    overflow: visible;
+}
+.mandapleft {
+    width: 100%;
+    height: 150px;
+}
+.mandapleft div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+    height: 100px;
+}
+.mandapleft div p {
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 45.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #800000;
+    height: 50px;
+    width: 250px;
+    margin: 0;
+}
+.mandapleft div img {
+    margin: 0;
+    padding-bottom: 150px;
+    width: 230px;
+    height: 100;
+}
+.mandapright {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.mandapright #infodiv {
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+}
+.mandapright #infodiv p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.mandapright #infodiv span {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.mandapright #imagediv {
+    width: 400px;
+    height: 350px;
+}
+.mandapright #imagediv img {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.frame3 {
+    width: 100%;
+    height: 600px;
+}
+.imgdiv {
+    background-image: url("./frame3back.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 175px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.frame3 .frame3top {
+    width: 100%;
+    height: 100px;
+}
+.frame3top div {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.frame3top div p {
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 45.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #800000;
+}
+.frame3top div img {
+    margin: 0;
+    padding-bottom: 50px;
+    width: 250px;
+}
+.frame3 .frame3bottom {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.minidiv {
+    width: 750px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 220px);
+}
+.a1 {
+    width: 100%;
+    height: 100%;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.a1 p {
+    text-align: center;
+    padding: 55px;
+    color: chocolate;
+}
+.a1 span {
+    color: #800000;
+}
+
+
+
+
+
+
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-image: url("./frame4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top {
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.top .a1 {
+    width: 60%;
+    height: 150px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top .a2 {
+    width: 80%;
+    height: 60px;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.a2 div{
+    width: 20%;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    background-color: orange;
+    margin-left: 100px
+}
+.top .a3 {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.top .a4 {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.a4 div{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;  
+}
+.bottom {
+    width: 45%;
+    height: 100px;
+    color: white;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
